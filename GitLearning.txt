@@ -1,0 +1,14 @@
+git init
+git add
+git commit -m "version explaination" ("-a" for "--all")
+
+git status
+git diff <filename> (to highlight the difference)
+
+git log
+git log --pretty=oneline
+git reflog (show your command in history)
+git reset --hard <commit_id>
+git reset --hard ^HEAD  (to move back)
+git reset --hard HEAD^  (to mave on)
+
