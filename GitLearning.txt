@@ -31,10 +31,44 @@ git rm <filename> (to delete in the stage)
 --------------------------
 use them together with former commands.
 
+
+
 Link to a remote repository:
-git remote add https://github.com/<user>/<repositoryname>
+|    git remote add https://github.com/<user>/<repositoryname>
+|or  git remote add git@github.com:<user>/<repositoryname>
 git push -u origin master   (first time to push)
 git push origin master
+
+Clone:
+|    git clone https://github.com/<user>/<repositoryname>
+|or  git clone add git@github.com:<user>/<repositoryname>
+----------------------------------------------
+best use the git protocal rather than http
+
+
+Set branches:
+git checkout-b dev
+equals to:
+git branch dev   (establish a branch "dev")
+git checkout dev (switch to branch "dev")
+
+git branch       (to check the status of branches)
+
+git log --graph --pretty=oneline --abbrev-commit
+
+git merge --no-ff -m "<explaination>" <branch_name>
+
+git branch -d <filename>
+git branch -D <filename>
+-------------------------------------------------
+
+git stash
+git stash list
+git stash pop
+git stash apply stash@{0}
+
+
+
 
 
 
