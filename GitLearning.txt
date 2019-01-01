@@ -58,14 +58,19 @@ git log --graph --pretty=oneline --abbrev-commit
 
 git merge --no-ff -m "<explaination>" <branch_name>
 
-git branch -d <filename>
-git branch -D <filename>
+git branch -d <branch_name>
+git branch -D <branch_name>
 -------------------------------------------------
 
 git stash
 git stash list
 git stash pop
 git stash apply stash@{0}
+-----------------------------
+
+git remote     (to check the origin)
+git remote -v  (to check the address of origin)
+git push origin <branch_name>
 
 
 
