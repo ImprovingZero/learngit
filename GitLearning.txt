@@ -4,6 +4,7 @@ git commit -m "version explaination" ("-a" for "--all")
 
 git status
 git diff <filename> (to highlight the difference)
+git diff HEAD -- <filename> (to show the difference between file in workplace and newest version)
 
 git log
 git log --pretty=oneline
