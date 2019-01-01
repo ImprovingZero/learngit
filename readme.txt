@@ -8,3 +8,4 @@ Git tracks changes.
 
 Creating new branches is quick and simple.
 
+a new branch named dev
