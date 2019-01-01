@@ -78,6 +78,32 @@ git push origin <branch_name>
 git branch --set-upstream dev origin/dev   (to set the reflection between local and remote)
 git branch -b dev orgin/dev
 git pull
+-----------------------------
+
+
+git tag <tag>         (to tag on the active branch)
+git tag               (to show the tag)
+git tag <tag> <commit_id>
+git show <tag>
+git tag -a <tag> -m "<explanation>" <commit_id>
+git tag -s <tag> -m "<explanation>" <commit_id> (to set a key)
+
+git tag -d <tag>
+git push origin <tag>
+git push origin --tags
+
+git push origin :refs/tags/<tag>   (first, del localy; then push to remote)
+-------------------------------
+
+To ignore:
+https://github.com/github.gitigore
+establish a file named ".gitignore"
+
+git config --global alias.<abbr> <NAME>   (to define a abbrevation)
+git config --global alias.<A> '<B>'              (#define A B)
+git config --global alias.lg "log --color --graph --pretty=format:'Cred%h%Creset -C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+
 
 
 
