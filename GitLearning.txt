@@ -26,5 +26,11 @@ git reset --hard <id>
 
 
 File delete:
+rm <filename> (to delete in the repository)
+git rm <filename> (to delete in the stage)
+--------------------------
+use them together with former commands.
+
+
 
 
