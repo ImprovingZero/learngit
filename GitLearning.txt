@@ -13,3 +13,18 @@ git reset --hard <commit_id>
 git reset --hard ^HEAD  (to move back)
 git reset --hard HEAD^  (to mave on)
 
+
+//3 ways to go back:
+--------------------------------
+//1-havent been added or commited
+git checkout -- <filename> (to let the file in workplace turn to the last version added or commited)
+//2-have been added but not commited
+git reset HEAD <filename> 
+//3-have been commited (must not been uploaded to the remote repository)
+git reset --hard <id>
+----------------------------------
+
+
+File delete:
+
+
