@@ -74,6 +74,10 @@ git push origin <branch_name>
 
 
 
-****************************
+=============================
+git branch --set-upstream dev origin/dev   (to set the reflection between local and remote)
+git branch -b dev orgin/dev
+git pull
+
 
 
